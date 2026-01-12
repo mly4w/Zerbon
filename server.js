@@ -4,7 +4,7 @@ const app = express();
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.send("Zerbon WebApp is running");
+  res.send("ZerbonAI WebApp is running");
 });
 
 const PORT = process.env.PORT || 3000;
